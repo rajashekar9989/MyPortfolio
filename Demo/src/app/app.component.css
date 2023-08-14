@@ -1,0 +1,22 @@
+h1{
+
+  margin:30px;
+  text-align: center;
+  color: blue;
+
+}
+#form{
+
+ text-align: center;
+ margin:60px;
+
+}
+.green{
+
+  background-color: green;
+  color: #fff;
+}
+.red{
+  background-color: red;
+  color: #fff;
+}

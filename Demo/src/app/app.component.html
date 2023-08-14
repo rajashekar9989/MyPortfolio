@@ -1,0 +1,33 @@
+<h1>This is article</h1>
+
+<h1 [ngClass]="{'green':h ,'red':!h}">Hello Welocome</h1>
+
+<button (click)="getGreen()">Green</button>
+
+<button (click)="getRed()">Red</button>
+
+<p>
+
+{{description | slice:0:end}}
+
+<button><span class= "text-danger" (click)="toggleArticle()">{{linkText}}</span>
+    </button>
+
+</p>
+
+<input type="text" (keydown.Enter)="test()">
+
+
+<input [(ngModel)]="data" type="text">
+  <br><br>
+  <h2> You entered the data: {{data}}</h2>
+
+  
+  
+  
+
+
+
+
+
+
